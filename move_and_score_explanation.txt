@@ -1,0 +1,12 @@
+g-score is the cost for Paul to get to a specific square from his position.
+h-score is the cost from that particular square to the cake.
+f-score is the sum of g and h.
+
+Diagonal - In this case, Paul has no choice but to go diagonally from his starting position even though it is
+more costly because the squares directly next to him and below him are blocked off by lava. 
+
+Hop - For this situation, Paul must hop over the lava in order to move past his starting position since
+all the squares surrounding him on each side are filled with lava. Hopping costs 8 extra moves but it is necessary here.
+
+Swamp - For Paul to reach the cake, he must go through the swamp even though it slows him down because the swamp
+blocks off all pathways that lead to the cake. 
