@@ -1,0 +1,15 @@
+g-score is the cost for Paul to get to a specific square from his position.
+This screenshot portrays the values associated with g-score particularly when looking at the first free square below Paul, which displays a score of 8. The cost of movement for hopping is 8, which is why that tile displays that value. The squares that are closer to the cake have higher g-scores.
+
+h-score is the cost from that particular square to the cake. The squares that are directly in contact with the square with the cake are labelled with a 1 meaning they are 1 movement cost away from the destination. Another example would be the starting square which has a number 18 in it. This means that the starting square is 18 movement points away from the cake. The squares that are closer to the cake have lower h-scores.
+
+f-score is the sum of g and h. This is revealed on the screenshot for f-score through the fact that each of the squares in Paul's path have the exact same value of 18. The fact that the g-score increases by 1 movement cost for each additional square in Paul's path is offset by the decrease in h-score by 1 movement cost. 
+
+Diagonal - In this case, Paul has no choice but to go diagonally from his starting position even though it is
+more costly because the squares directly next to him and below him are blocked off by lava. 
+
+Hop - For this situation, Paul must hop over the lava in order to move past his starting position since
+all the squares surrounding him on each side are filled with lava. Hopping costs 8 extra moves but it is necessary here.
+
+Swamp - For Paul to reach the cake, he must go through the swamp even though it slows him down because the swamp
+blocks off all pathways that lead to the cake. 
