@@ -1,0 +1,17 @@
+g_cost.png
+g_cost is the cost of Paul's path to the cake. 
+
+h_cost.png
+h_cost is the cost of the path from the cake to Paul.
+
+f_cost.png
+f_cost is the sum of g_cost and h_cost. 
+
+diagonal.png
+the path will go through diagonals
+
+hop.png
+if surrounded by lava, will hop over lava at extra cost
+
+swamp.png
+when swamped, will hop over and if given the option to hop over lava or swamp, will hop over lava because swamp is more expensive
