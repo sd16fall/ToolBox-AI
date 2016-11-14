@@ -1,0 +1,9 @@
+1. g_cost is the cost of getting from Paul to the cake
+It assumes that we can only travel down and to the right.
+The squares that are adjacent shows the cost of movement if you move to that specific square.
+
+2. h_cost is the cost of getting from the cake to Paul
+It assumes that we can only travel upward and to the left.
+The squares that are adjacent shows the cost of movement if you move to that specific square.
+
+3. f_cost is the sum of g_cost and h_cost 
